@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convocation Center</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7dce9778bf.js" crossorigin="anonymous"></script>
+    <!-- Tailwind link
+    <script src="https://cdn.tailwindcss.com"></script> -->
+</head>
+<body>
+    <header>
+                 <!-- bootstrap navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid ms-5 me-5 ">
+                <!-- <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1">Royal Convocation Center</span>
+                  </div> -->
+                   <a class="navbar-brand d-flex align-items-center" href="#">Royal Convocation Center</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section class="mb-5">
+                              <!-- bootstrap carousel component -->
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner.png" class=" d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>Occation Pictures</h5>
+                  <p>What a beautiful picture it is!!!</p>
+                  <button type="button" class="btn btn-light text-primary fw-bold">Book Now</button>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>Occation Pictures</h5>
+                  <p>What a beautiful picture it is!!!</p>
+                  <button type="button" class="btn btn-light text-primary fw-bold"> Book Now</button>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block">
+                  <h5>Occation Pictures</h5>
+                  <p>What a beautiful picture it is!!!</p>
+                  <button type="button" class="btn btn-light text-primary fw-bold">Book Now</button>
+                </div>
+              </div>
+             
+            </div>
+
+            
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <section>
+                             <!-- bootstrap flex component -->
+          <div class="d-sm-block d-lg-flex align-items-center my-5 ms-5 me-5 ">
+            <div class="flex-shrink-0">
+              <img class="img-fluid" src="images/wedding.png" alt="...">
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <h1>Every moment is Precious</h1>
+              <p>hello everyone.this is one of the best covention center for arrange marrage reciptation.</p>
+              <a class="text-white btn-primary p-2 text-decoration-none" target="_blank" href="">prebook now <i class="fas fa-arrow-circle-right"></i></a> 
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h1 class="text-center" >Our Package</h1>
+                           <!-- Bootstrap card component  -->
+          <div class="card-group my-5 ms-5 me-5">
+            <!-- <div class="card m-2"> -->
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card col-md-5 mt-5  m-2 rounded">
+                <h1 class="card-title">$300</h1>
+                <h2 class="card-title">Business fair</h2>
+                <p class="card-text">For most businesses event like book fair.craft fair</p>
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <p class="card-text"><i class="far fa-check-circle "></i>limited space access</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Secuirty facility</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>event support</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Decoration design </p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Per day bill</p>
+                <a class="text-primary btn-light  p-2 text-decoration-none rounded-pill text-center " target="_blank" href="">Choose Plan</a> 
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            <!-- </div> -->
+            <!-- <div class="card m-2"> -->
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card m-2 col-md-5 mt-5 rounded">
+                <h1 class="card-title">$500</h1>
+                <h2 class="card-title">Wedding Basic</h2>
+                <p class="card-text">For weddings with basic plan and limited iteam</p>
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <p class="card-text"><i class="far fa-check-circle "></i>Full space access</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Food arragement</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>management support</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Decoration design </p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Billed as shift</p>
+                <a class="text-primary btn-light  p-2 text-decoration-none rounded-pill text-center " target="_blank" href="">Choose Plan</a> 
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            <!-- </div> -->
+
+            <!-- <div class="card m-2"> -->
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card m-2 bg-primary rounded">
+                <h1 class="card-title">$800</h1>
+                <h2 class="card-title">Wedding plus</h2>
+                <p class="card-text">For most weddings with premium plans</p>
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <p class="card-text"><i class="far fa-check-circle "></i>Full space access</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Dedicated team</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Buffet food</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Premium Decoration</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>pay as plan</p>
+                <a class="text-primary btn-light  p-2 text-decoration-none rounded-pill text-center " target="_blank" href="">Choose Plan</a> 
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            <!-- </div> -->
+
+            <!-- <div class="card m-2"> -->
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card m-2 col-md-5 mt-5 rounded">
+                <h1 class="card-title">$1200</h1>
+                <h2 class="card-title">Corporate event</h2>
+                <p class="card-text">For most corporate business events</p>
+                <!-- <h5 class="card-title">Card title</h5> -->
+                <p class="card-text"><i class="far fa-check-circle "></i>full space access</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Dedicated team</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Buffet Food</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Premium Decoration</p>
+                <p class="card-text"><i class="far fa-check-circle "></i>Pay as Plan</p>
+                <a class="text-primary btn-light  p-2 text-decoration-none rounded-pill text-center " target="_blank" href="">Choose Plan</a> 
+                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+              </div>
+            <!-- </div> -->
+            
+          </div>
+        </section>
+
+        <section>
+          <h1 class="text-center" >Frequently Asked Questions</h1>
+          <div class="d-sm-block d-lg-flex align-items-center my-5 ms-5 me-5">
+          <div class="accordion flex-grow-1 ms-3" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  What does organization mean?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  An organization is a group of people who work together, like a neighborhood association, a charity, a union, or a corporation. You can use the word organization to refer to group or business, or to the act of forming or establishing something.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  What is organisation with example?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  The definition of organization refers to the act of putting things into a logical order or the act of taking an efficient and orderly approach to tasks, or a group of people who have formally come together. When you clean up your desk and file all of your papers into logical spots, this is an example of organization
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  What is the main purpose of the organization?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  An organization main aim or the purpose is to understand and manage the business well. Main purpose is to bring together all the employees and also understand the direction of the organization.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-shrink-0 m-1 ">
+            <img class="img-fluid" src="images/people.png" alt="...">
+          </div>
+
+        </div>
+        </section>
+    </main>
+                               <!-- footer component -->
+    <footer class="text-center text-lg-start "  style="background-color: rgba(0, 0, 0, 0.2);">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-8 col-md-4 mb-4 mb-md-0 ">
+            <br> <br> <br> <br>
+            <h5 class="text-uppercase"> 
+              © 2020 Copyright.All rights reserved</h5>
+    
+            
+          </div>
+          <!--Grid column-->
+    
+         
+      
+    
+        
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+               <h1>Get the App</h1>
+            
+              <a  target="_blank" href="https://www.apple.com/app-store/" class="text-dark"><img class="img-fluid" src="images/download.png" alt=""></a>
+                     <br> <br>
+           
+              <a target="_blank" href="https://play.google.com/store/apps" class="text-dark"><img class="img-fluid" src="images/googleplay.png" alt=""></a>
+           
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+    
+    
+    </footer>
+
+    
+          
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
